@@ -95,10 +95,10 @@ body.noche #sobre-mi .social-icons i {
     color: #fff;
 }
 body.noche #habilidades .container {
-    background-color: #7bc8ffb4;
+    background-color: #1d1678be;
 }
 body.noche #habilidades p {
-    color: #000;
+    color: #fff;
 }
 body.noche #habilidades h2 {
     font-size: 60px;
@@ -127,6 +127,30 @@ body.noche #portafolio h2::after {
     height: 3px;
     background-color: #f5f5f5;
     margin: 5px auto 20px;
+}
+body.noche #portafolio .tarjeta-cuerpo {
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 10px;
+    border: 1px solid #1C1678;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #1d167896;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+body.noche #portafolio .tarjeta-titulo {
+    font-size: 30px;
+    margin: 10px 0 5px;
+    color: var(--three-color);
+}
+body.noche #portafolio .tarjeta-texto {
+    font-size: 25px;
+    color: #fff;
+}
+body.noche #estudios {
+    background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.733)), 
+    url('../img/fondo-estudios.jpg');
+background-size: cover;
 }
 
 
