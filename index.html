@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alejandra Saenz</title>
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<body>
+    <header id="hero">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <!-- BOTON OCULTO POR RESPONSIVE -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Botón para activar el modo noche -->
+                <button id="modo-noche">
+                    <i class="fa-solid fa-sun"></i> <!-- Ícono de sol por defecto -->
+                </button>
+    
+                <!-- ITEMS DE MENU -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre-mi">Sobre Mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portafolio">Portafolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="contenido-hero">
+                        <h2 id="nombre">Alejandra Saenz</h2>
+                        <h1>Analista y Desarrolladora de Software</h1>
+                    </div>
+                </div>
+                <div class="col-lg-4 icon-hero">
+                    <img src="img/icono-hero-2.jpg" alt="Foto de Alejandra Saenz " class="rounded-circle" data-aos="fade-up" data-aos-duration="2500">
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <section id="sobre-mi">
+            <div class="container">
+                <div class="row">
+                    <article class="col-lg-6 info-about">
+                        <h2>Sobre Mi</h2>
+                        <h3 id="titulo-about">Analista y Desarrolladora de <br>Software</h3>
+                        <div class="social-icons">
+                            <a href="https://github.com/Alejathv" target="_blank">
+                                <i class="fa-brands fa-square-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/alejandra-saenz-florez-ab087333a/" target="_blank">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                            <a href="mailto:alejasaenzflorez02@gmail.com" target="_blank">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                            <a href="https://wa.me/3194807851" target="_blank">
+                                <i class="fa-brands fa-square-whatsapp"></i>
+                            </a> <br>
+                            <button>
+                                <a href="Hoja de Vida - Alejandra Saenz Florez .docx (1).pdf"><i class="fa-solid fa-download"></i>Ver CV</a>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="col-lg-6">
+                        <p>
+                            Soy proactiva y motivada, con habilidades en tecnología. Destaco en análisis, 
+                            resolución de problemas y trabajo en equipo. 
+                            Aunque no tengo experiencia profesional, estoy lista para aprender y contribuir al éxito del equipo.
+
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="habilidades">
+            <div class="container">
+                <h2>Habilidades</h2>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="hab">
+                            <p><img src="img/item1.svg" alt="viñeta habilidad">Desarrollo de Aplicaciones Web con Python</p>
+                        </div>
+                        <div class="hab">
+                            <p><img src="img/item3.svg" alt="viñeta habilidad">Diseño y Gestión de Bases de Datos MySQL</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ">
+                        <div class="hab">
+                            <p><img src="img/item2.svg" alt="viñeta habilidad">Gestión de <br>Proyectos Ágiles</p>
+                        </div>
+                        <div class="hab">
+                            <p><img src="img/item4.svg" alt="viñeta habilidad">Experiencia en Herramientas de Diseño (Figma)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="portafolio">
+            <div class="container">
+                <div class="row">
+                    <h2>Portafolio</h2>
+        
+                    <!-- Filtros -->
+                    <div class="filtros">
+                        <button class="filtro" data-categoria="todos">Todos</button>
+                        <button class="filtro" data-categoria="movil">Móviles</button>
+                        <button class="filtro" data-categoria="web">Desarrollo Web</button>
+                    </div>
+        
+                    <!-- Proyectos -->
+                    <div class="col-lg-6 proyectos">
+                        <div class="tarjeta-cuerpo movil">
+                            <a href="https://alejathv.github.io/Algoritmos-JS/">
+                                <img src="img/proyecto-movil-1.jpg" alt="Proyecto Móvil 1">
+                            </a>
+                            <h5 class="tarjeta-titulo">HealthyTrack</h5>
+                            <p class="tarjeta-texto">Monitorea pasos, hidratación y sueño para un estilo de vida saludable.</p>
+                        </div>
+                        <div class="tarjeta-cuerpo web">
+                            <a href="https://alejathv.github.io/FisioHorizon/">
+                                <img src="img/proyecto-web-1.png" alt="Proyecto Web 1">
+                            </a>
+                            <h5 class="tarjeta-titulo">FisioHorizon</h5>
+                            <p class="tarjeta-texto">Plataforma Web de fisioterapia con ejercicios y seguimiento personalizado para tu recuperación.</p>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-6 proyectos">
+                        <div class="tarjeta-cuerpo movil">
+                            <a href="https://alejathv.github.io/DOM-Alejandra-Saenz/">
+                                <img src="img/proyecto-movil-2.jpg" alt="Proyecto Móvil 2">
+                            </a>
+                            <h5 class="tarjeta-titulo"> Learnify</h5>
+                            <p class="tarjeta-texto">App educativa con lecciones rápidas sobre idiomas y habilidades prácticas.</p>
+                        </div>
+                        <div class="tarjeta-cuerpo web">
+                            <a href="proyecto-web2.html">
+                                <img src="img/proyecto-web-2.jpg" alt="Proyecto Web 2">
+                            </a>
+                            <h5 class="tarjeta-titulo">EduGloss</h5>
+                            <p class="tarjeta-texto">Plataforma con cursos de manicure, diseño de uñas y tendencias para todos los niveles.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="estudios">
+            <h2>Estudios</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 python" data-aos="zoom-out-up" data-aos-duration="1500">
+                        <p class="estpython">
+                            <b>2023</b> <br>
+                            Variables y Estructuras <br>de Control en Python, <br> y
+                            Procesos de Soporte Técnico <br>para el Mantenimiento de <br>
+                            Equipos de Cómputo
+                        </p>
+                    </div>
+                    <div class="col-lg-4 imagenest" data-aos="zoom-out" data-aos-duration="1500">
+                        <img src="img/Group 5.svg" alt="imagen estudios">
+                    </div>
+                    <div class="col-lg-4 est" data-aos="zoom-in-up" data-aos-duration="1500">
+                        <p class="est2021">
+                            <b>2021-2022</b> <br>
+                            Tecnico en Sistemas 
+                        </p>
+                        <p class="est3" data-aos="zoom-in-up" data-aos-duration="1500">
+                            <b>2023-2025</b> <br>
+                            Tecnólogo en Análisis y Desarrollo de Software
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="experiencia" data-aos="fade-down" data-aos-duration="1500">
+            <h2>Experiencia</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 info-experiencia">
+                        <p>
+                            Soy una desarrolladora web con experiencia en la creación de aplicaciones y sitios funcionales y atractivos. Domino HTML, CSS, JavaScript y el framework Bootstrap. Me especializo en ofrecer soluciones eficientes, adaptadas a las necesidades del cliente, con un enfoque en el diseño responsivo y la experiencia de usuario.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 icon-experiencia">
+                        <img src="img/undraw_static_assets_rpm6.svg" alt="experiencia">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="pasatiempos" data-aos="fade-up" data-aos-duration="1500">
+            <h2>Pasatiempos</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 imagen-pasatiempo">
+                        <img src="img/Group 8.svg" alt="pasatiempos">
+                    </div>
+                    <div class="col-lg-6 info-pasatiempo">
+                        <p>
+                            En mi tiempo libre, me encanta leer,
+                            aprender cosas nuevas y escuchar música.
+                            La lectura me deja explorar una variedad de temas 
+                            y siempre me ayuda a enriquecer mi conocimiento,
+                            tanto en lo profesional como en lo personal.
+                            Además, disfrutar de buena música me permite relajarme y encontrar inspiración.
+                            ¡Siempre estoy buscando algo nuevo para descubrir.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div id="contacto">
+            <div class="container contacto">
+                <div class="row">
+                        <div class="footer-top">
+                            <h2>¿Listo para llevar tu <br>proyecto al siguiente nivel?</h2>
+                            <p>Conversemos y hagamos que suceda.</p>
+                            <button><a href="https://wa.me/3194807851">Inicia tu proyecto</a></button>
+                        </div>
+                    </div>
+                        <div class="footer-bottom">
+                            <p>Redes Sociales</p>
+                            <div class="redes-sociales">
+                                <a href="https://github.com/Alejathv" title="GitHub"><i class="fa-brands fa-square-github"></i></a>
+                                <a href="https://www.linkedin.com/in/alejandra-saenz-florez-ab087333a/" title="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="mailto:alejasaenzflorez02@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+                                <a href="https://wa.me/3194807851" title="whatsapp"><i class="fa-brands fa-square-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+          </footer>
+
+</body>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
