@@ -148,9 +148,7 @@ body.noche #portafolio .tarjeta-texto {
     color: #fff;
 }
 body.noche #estudios {
-    background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.733)), 
-    url('../img/fondo-estudios.jpg');
-background-size: cover;
+    background: #000;
 }
 
 
