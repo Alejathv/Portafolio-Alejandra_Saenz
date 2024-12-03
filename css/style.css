@@ -215,6 +215,12 @@ body.noche .redes-sociales a {
     font-size: 24px;
     transition: color 0.3s ease-in-out;
 }
+body.noche .nav-item a:hover {
+    color: var(--primary-color);
+}
+body.noche .nav-item a::after {
+    background-color: var(--primary-color);
+}
 
 
 /* -----------------FIN MODO NOCHE--------------------  */
